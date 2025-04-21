@@ -67,7 +67,7 @@ const WeatherDetails = ({ data, forecast }) => {
           </div>
         </div>
       </div>
-      <h5 className="text-danger text-header">Next 5 days forcaset</h5>
+      <h5 className="text-danger text-header">Next 5 days forecast</h5>
       <div className="forecast-container">
         
         {forecast.map((day, index) => (
